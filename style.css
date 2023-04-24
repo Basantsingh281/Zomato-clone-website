@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 225px;
+    width: 100%;
+    margin-top: 4px;
+    background-color: #ffffff;
+}
+
+#Navbar {
+    height: 60px;
+}
+
+/*Brand logo section*/
+#Brandlogo {
+    height: 50px;
+    width: 12%;
+    margin-left: 112px;
+    margin-top: 20px;
+    float: left;
+}
+
+#Brandlogo>a>img {
+    height: 28px;
+    width: 126px;
+}
+
+/*Nav bar Search box*/
+
+.searchbox {
+    width: 700px;
+    height: 50px;
+    background-color: white;
+    margin-top: 4px;
+    border: 1px solid rgb(240, 233, 237);
+    border-radius: 10px;
+    float: left;
+}
+
+.locationicon {
+    height: 40px;
+    width: 30px;
+    float: left;
+}
+
+.logo1 {
+    height: 24px;
+    width: 36px;
+    margin-top: 13px;
+}
+
+
+.textsection {
+    height: 40px;
+    width: 166px;
+    margin-left: 7px;
+    float: left;
+}
+
+
+.dropdowicon {
+    height: 50px;
+    width: 36px;
+    border-right: 2px solid rgb(240, 233, 237);
+    float: left;
+}
+
+
+
+.searchicon {
+    height: 42px;
+    width: 37px;
+    float: left;
+
+}
+
+
+.textsection1 {
+    height: 40px;
+    width: 420px;
+    float: left;
+}
+
+
+.textbox {
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 4px;
+
+}
+
+/*Login,Sign up section*/
+#Login {
+    height: 50px;
+    width: 27%;
+    float: left;
+
+}
+
+#Login ul li {
+    float: left;
+    margin-left: 60px;
+    margin-top: 4px;
+    list-style: none;
+    font-size: 17px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+
+/*header text homepage section*/
+.texthomepage {
+    height: 50px;
+    width: 100%;
+    margin-left: 69px;
+    float: left;
+    margin-top: -7px;
+
+}
+
+.texthomepage ul li {
+    float: left;
+    font-family: Okra, Helvetica, sans-serif;
+    list-style: none;
+    margin: 5px;
+    color: #828282;
+    font-size: 12px;
+
+}
+
+.texthover:hover {
+    font-size: 12px;
+    color: red;
+}
+
+/*Filter section*/
+#Filteritem {
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+#Filteritem h2 {
+    margin-top: 10px;
+    margin-left: 8%;
+    font-size: 20px;
+    color: #828282;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.radio1 {
+    margin-top: 15px;
+    margin-left: 8%;
+    font-family: Okra, Helvetica, sans-serif;
+    color: #828282;
+    font-size: 13px;
+}
+
+/*Food Menu*/
+.foodmenu {
+    height: 330px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+/*#menuheading*/
+.menuheading {
+    height: 50px;
+}
+
+.menuheading span {
+    margin-left: 8%;
+    color: rgb(28, 28, 28);
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+
+#dishes {
+    display: flex;
+    width: 100%;
+    margin-left: 91px;
+}
+
+.dish {
+    margin: 23px;
+    margin-top: 40px;
+}
+
+.dish img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dish p {
+    text-align: center;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#foodcontainer {
+    height: 380px;
+    padding: 0px;
+
+}
+
+#foodheading p {
+    margin-left: 8%;
+    color: rgb(28, 28, 28);
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+#foodbox {
+    height: 380px;
+}
+
+.food1 {
+    height: 370px;
+    width: 320px;
+    float: left;
+    margin: 1px;
+    margin-left: 100px;
+}
+
+.imagebox {
+    height: 250px;
+    width: 320px;
+}
+
+.imagebox img {
+    height: 240px;
+    width: 320px;
+    border-radius: 18px;
+}
+
+.textbox h3 {
+    margin-top: -3px;
+    margin-left: 4px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(28, 28, 28);
+    font-size: 15px;
+}
+
+.textbox span {
+    margin-top: -3px;
+    margin-left: 4px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: #b5b5b5;
+    padding: 0px;
+}
+
+#endresult {
+    height: 300px;
+}
+
+#resultend {
+    height: 270px;
+    width: 48%;
+    float: left;
+}
+
+#resultend p {
+    text-align: right;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-top: 116px;
+    margin-right: 48px;
+}
+
+#imageresult {
+    height: 270px;
+    width: 48%;
+    float: left;
+}
+
+#imageresult img {
+    height: 100px;
+    width: 110px;
+    margin-top: 76px;
+    margin-left: 77px;
+}
+
+#footercontainer {
+    height: 350px;
+    background-color: #fafafa;
+}
+
+#footerheading {
+    margin-top: -38px;
+}
+
+#footerheading h1 {
+    margin-left: 92px;
+}
+
+
+.textcontainer {
+    height: 70px;
+    width: 90%;
+}
+
+.boxcontainer {
+    height: 60px;
+    width: 90%;
+    font-family: Okra, Helvetica, sans-serif;
+    border: 2px solid rgb(240, 233, 237);
+    font-size: 18px;
+    margin-left: 92px;
+}
+
+#footerdiv {
+    height: 60px;
+    background-color: #f8f8f8;
+}
+
+#footerdiv img{
+    margin-left: 90px;
+}
+
+#footertext {
+    height: 200px;
+    background-color: #fafafa;
+}
+
+.footertext1 {
+    width: 15%;
+    float: left;
+    margin-top:43px;
+    margin-left:58px;
+}
+
+.footertext1 span{
+    margin-left: 39px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size:16px;
+
+}
+
+.footertext1 ul {
+    list-style: none;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size:15px;
+    color: #b5b5b5;
+}
+
+.footertext1 img{
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+footer span{
+    margin-left: 96px;
+    ont-family: Okra, Helvetica, sans-serif;
+    font-size:15px;
+    color: #b5b5b5; 
+}
